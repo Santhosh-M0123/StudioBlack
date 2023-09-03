@@ -1,0 +1,31 @@
+.test_cards {
+  width: 330px;
+  height: 200px;
+  cursor: pointer;
+}
+.card_top {
+  padding: 30px;
+  width: 100%;
+  /* color: white; */
+  /* background-color: rgb(71, 69, 69); */
+  height: auto;
+  -webkit-box-shadow: -2px 3px 17px -1px rgba(163, 160, 161, 1);
+  -moz-box-shadow: -2px 3px 17px -1px rgba(163, 160, 161, 1);
+  box-shadow: -2px 3px 17px -1px rgba(163, 160, 161, 1);
+}
+.card_bottom {
+  width: 100%;
+  height: auto;
+  padding: 15px 30px;
+  background-color: transparent;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 20px;
+}
+.test_img {
+  border-radius: 50%;
+}
+.profile_name p {
+  font-size: 12px;
+}
